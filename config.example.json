@@ -1,0 +1,26 @@
+{
+  "chain_id": null,
+  "l1_rpc": "https://YOUR_L1_RPC",
+  "reference_l2_rpc": "https://YOUR_REFERENCE_L2_RPC",
+  "local_l2_rpc": "http://127.0.0.1:18545",
+  "op_node_rpc": "http://127.0.0.1:19545",
+  "reference_l2_wss": null,
+  "explorer_rpc": null,
+  "l1_factory": "0x0000000000000000000000000000000000000000",
+  "message_passer": "0x4200000000000000000000000000000000000016",
+  "expected_game_type": null,
+  "game_claim_method": "rootClaimByChainId",
+  "checkpoint_height": {
+    "mode": "timestamp_linear",
+    "anchor_timestamp": null,
+    "anchor_l2_block": null,
+    "seconds_per_block": null
+  },
+  "l1_head_tag": "finalized",
+  "output_root_version": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "data_dir": "./data",
+  "disk_floor_gib": 5,
+  "restart_free_gib": 6,
+  "restart_window_free_gib": 5.5,
+  "docker_containers": []
+}
